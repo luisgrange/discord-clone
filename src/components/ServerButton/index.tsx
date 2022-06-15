@@ -9,12 +9,7 @@ export interface Props{
     mentions?: number;
 }
 
-export function ServerButton({
-    selected, 
-    isHome, 
-    hasNotification, 
-    mentions
-}: Props){
+export const ServerButton: React.FC<Props> = ({selected, isHome, hasNotification, mentions})=>{
 
     return(
         <Button

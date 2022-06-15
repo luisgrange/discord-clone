@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Props} from '.';
 
 
-export const Button = styled.button`
+export const Button = styled.button<Props>`
     border: 0;
     display: flex;
     align-items: center;
