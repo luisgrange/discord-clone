@@ -6,15 +6,15 @@ export default createGlobalStyle`
         padding: 0;
 
         box-sizing: border-box;
-    },
+    }
 
     html, body, #root{
         height: 100%;
         width: 100%;
     }
 
-    *, button. input{
-        border; 0;
+    *, button, input{
+        border: 0;
 
         font-family: 'Roboto', sans-serif;
     }
