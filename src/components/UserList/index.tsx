@@ -4,6 +4,7 @@ import {Container, Role, User, Avatar} from './styles'
 interface UserProps{
     nickname: string;
     isBot?: boolean;
+    offline?: boolean;
 }
 
 const UserRow: React.FC<UserProps> = ({nickname, isBot}) => {
@@ -24,7 +25,7 @@ export function UserList(){
             <UserRow  nickname="Luís Fernando"/>
 
             <Role>Offline - 1</Role>
-            <UserRow  nickname="Fulano" isBot/>
+            <UserRow  nickname="Fulano" isBot offline/>
         </Container>
     );
 }
