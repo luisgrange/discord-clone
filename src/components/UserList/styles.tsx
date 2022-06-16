@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container  = styled.div`
     grid-area: UL;
 
-    padding: 0 16px 23px 16px;
+    padding: 0 8px 23px 8px;
     background-color: var(--secondary);
 `;
 export const Role  = styled.div`
@@ -21,6 +21,12 @@ export const Role  = styled.div`
 export const User  = styled.div`
     display: flex;
     align-items: center;
+
+    transition: background-color .2s;
+
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
 
     > strong{
         font-weight: 400;
@@ -41,6 +47,15 @@ export const User  = styled.div`
         padding: 2px 5px;
 
         margin-left: 8px;
+    }
+
+    &.off{
+        opacity: .3;
+    }
+
+    &:hover{
+        background-color: #dcddde13;
+        opacity: 1;
     }
 `;
 

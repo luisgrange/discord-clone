@@ -7,9 +7,9 @@ interface UserProps{
     offline?: boolean;
 }
 
-const UserRow: React.FC<UserProps> = ({nickname, isBot}) => {
+const UserRow: React.FC<UserProps> = ({nickname, isBot, offline}) => {
     return(
-        <User>
+        <User className={offline ? 'off' : ''}>
             <Avatar/>
             <strong>{nickname}</strong>
 
