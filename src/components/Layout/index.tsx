@@ -7,6 +7,7 @@ import { ChannelInfo } from '../ChannelInfo';
 import { ChannelList } from '../ChannelList';
 import { UserInfo } from '../UserInfo';
 import { UserList } from '../UserList';
+import { ChannelData } from '../ChannelData';
 
 export function Layout(){
     return(
@@ -17,6 +18,7 @@ export function Layout(){
             <ChannelList/>
             <UserInfo/>
             <UserList/>
+            <ChannelData/>
         </Grid>
     );
 }
