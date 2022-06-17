@@ -23,9 +23,18 @@ export function UserList(){
         <Container>
             <Role>Disponível - 1</Role>
             <UserRow  nickname="Luís Fernando"/>
+            <UserRow  nickname="Fuís Lernando"/>
 
-            <Role>Offline - 1</Role>
+            <Role>Offline - 9</Role>
             <UserRow  nickname="Fulano" isBot offline/>
+            <UserRow  nickname="Ciclano" offline/>
+            <UserRow  nickname="Ciclano" offline/>
+            <UserRow  nickname="Ciclano" offline/>
+            <UserRow  nickname="Ciclano" offline/>
+            <UserRow  nickname="Ciclano" offline/>
+            <UserRow  nickname="Ciclano" offline/>
+            <UserRow  nickname="Ciclano" offline/>
+            <UserRow  nickname="Ciclano" offline/>
         </Container>
     );
 }

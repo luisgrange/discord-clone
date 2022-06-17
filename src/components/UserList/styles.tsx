@@ -42,7 +42,7 @@ export const User  = styled.div`
         font-size: 9px;
         font-weight: 700;
 
-        border-radius: 14px;
+        border-radius: 4px;
 
         padding: 2px 5px;
 
