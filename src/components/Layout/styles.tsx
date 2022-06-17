@@ -20,4 +20,5 @@ export const Grid = styled.div`
     'SL UI CD UL';
 
     height: 100vh;
-`
+    /* overflow: hidden; */
+`;
